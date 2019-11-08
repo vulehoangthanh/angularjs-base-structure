@@ -1,0 +1,9 @@
+(function(angular) {
+    'use strict';
+    angular.module('configModule', [])
+        .constant('config', {
+            api: 'http://DOMAIN/',
+            baseWebHref: 'DOMAIN_BASE_WEB_URL',
+            apiImage: 'IMAGE_BASE_URL'
+        });
+})(window.angular);

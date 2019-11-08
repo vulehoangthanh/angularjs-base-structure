@@ -1,0 +1,22 @@
+{
+  "name": "crm-pv-client",
+  "version": "1.0.0",
+  "description": "crm pv client",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crm-pv-client"
+  ],
+  "author": "vu.lehoangthanh16051991@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-angular-templatecache": "*",
+    "gulp": "3.*",
+    "gulp-html-minifier": "*",
+    "gulp-uglifyjs": "*",
+    "gulp-concat": "*",
+    "gulp-replace": "*",
+    "del": "*"
+  }
+}
